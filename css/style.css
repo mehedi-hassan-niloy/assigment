@@ -46,7 +46,7 @@
 
   /*----------------about------------*/
   .about{
-    padding: 150px;
+    padding: 0px 150px;
   }
   .about-section{
     display: flex;
@@ -73,7 +73,7 @@
 
   /*---------------plan section-------*/
   .plan{
-    padding: 50px 150px;
+    padding: 10px 150px;
   }
   .title{
     padding-bottom: 60px;
