@@ -9,8 +9,43 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 150px 50px;
+    padding: 100px 50px;
  }
+ 
+  /*--------------nav-----------*/
+  nav a{
+    text-decoration: none;
+  }
+  nav a li{
+    list-style: none;
+    color: white;
+    background: transparent;
+    font-weight: 700;
+    font-size: 25px;
+    
+  }
+ nav{
+    display: flex;
+    gap: 30px;
+    padding-bottom: 100px;
+    padding-left: 100px;
+  }
+  .login{
+    margin-left: 650px;
+
+  }
+  .btn-login{
+    text-align: center;
+    height: 40px;
+    width: 110px;
+    color: white;
+    background: transparent;
+    border: 0;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 700;
+  }
+  /*----------nav end-------*/
   .header-title{
     text-align: right;
     color: white;
@@ -34,8 +69,8 @@
     background: white;
     border: 0;
     border-radius: 5px;
+    font-size: 20px;
     font-weight: 700;
-    font-size: 15px;
   }
   .button-btn{
     padding-top: 20px;
@@ -43,6 +78,8 @@
     padding-right: 100px;
     
   }
+
+
 
   /*----------------about------------*/
   .about{
